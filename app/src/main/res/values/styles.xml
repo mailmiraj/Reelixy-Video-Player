@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SectionHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/spacing_m</item>
+        <item name="android:paddingEnd">@dimen/spacing_m</item>
+        <item name="android:paddingTop">@dimen/spacing_m</item>
+        <item name="android:paddingBottom">@dimen/spacing_s</item>
+        <item name="android:textSize">@dimen/text_size_section_header</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="SectionHeaderCompact">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_section_header</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="VideoTitleText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+
+    <style name="VideoCaptionText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_caption</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TopBarIconButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="PlayerControlIcon">
+        <item name="android:layout_width">@dimen/player_control_icon</item>
+        <item name="android:layout_height">@dimen/player_control_icon</item>
+        <item name="android:background">@drawable/bg_player_icon</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+    <style name="LibraryFilterChip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:minWidth">84dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:background">@drawable/bg_rounded_surface</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:background">@drawable/bg_premium_chip</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="PremiumTopBar">
+        <item name="android:minHeight">72dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="PremiumIconButton">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@drawable/bg_icon_surface</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="PremiumListRow">
+        <item name="android:minHeight">64dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@drawable/bg_premium_card_subtle</item>
+    </style>
+</resources>

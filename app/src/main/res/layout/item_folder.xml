@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="6dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?android:attr/textColorSecondary"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_premium_card_subtle"
+        android:paddingStart="14dp"
+        android:paddingEnd="8dp">
+
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="10dp"
+                android:background="@drawable/bg_icon_surface"
+                android:src="@drawable/ic_folder"
+                android:contentDescription="@null" />
+            <TextView
+                android:id="@+id/tvFolderBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:minWidth="18dp"
+                android:gravity="center"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:layout_gravity="bottom|end"
+                android:background="@drawable/bg_pill_dark"
+                android:textColor="@android:color/white"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                tools:text="24" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="12dp">
+            <TextView
+                android:id="@+id/tvFolderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Movies" />
+            <TextView
+                android:id="@+id/tvFolderCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="11sp"
+                tools:text="24 videos" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnFolderMore"
+            style="@style/TopBarIconButton"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/ic_more"
+            android:contentDescription="@string/action_folder_options" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

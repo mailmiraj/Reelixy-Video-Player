@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">8dp</dimen>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <dimen name="corner_radius_s">8dp</dimen>
+    <dimen name="corner_radius_m">12dp</dimen>
+    <dimen name="corner_radius_l">16dp</dimen>
+
+    <dimen name="thumbnail_height">110dp</dimen>
+    <dimen name="thumbnail_width_horizontal">180dp</dimen>
+
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_subtitle">14sp</dimen>
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_section_header">16sp</dimen>
+
+    <dimen name="touch_target_min">48dp</dimen>
+    <dimen name="player_control_icon">40dp</dimen>
+    <dimen name="mini_player_height">64dp</dimen>
+    <dimen name="bottom_nav_height">64dp</dimen>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@drawable/bg_premium_card"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingStart="@dimen/spacing_s"
+    android:paddingEnd="@dimen/spacing_s"
+    android:elevation="8dp">
+
+    <ImageView
+        android:id="@+id/ivMiniThumb"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_rounded_surface"
+        android:contentDescription="@string/cd_thumbnail"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvMiniTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/spacing_s"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="14sp"
+        tools:text="Movie Name"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <ProgressBar
+        android:id="@+id/progressMini"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="44dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="6dp"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="@color/accent" />
+
+    <ImageButton
+        android:id="@+id/btnMiniPlayPause"
+        style="@style/PlayerControlIcon"
+        android:src="@drawable/ic_play"
+        android:contentDescription="@string/cd_play" />
+
+    <ImageButton
+        android:id="@+id/btnMiniClose"
+        style="@style/PlayerControlIcon"
+        android:src="@drawable/ic_close"
+        android:contentDescription="@string/cd_close_mini_player" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_speed" android:title="@string/playback_speed" />
+    <item android:id="@+id/option_subtitle" android:title="@string/subtitle" />
+    <item android:id="@+id/option_audio_track" android:title="@string/audio_track" />
+    <item android:id="@+id/option_zoom" android:title="Zoom mode" />
+    <item android:id="@+id/option_sleep_timer" android:title="@string/sleep_timer" />
+    <item android:id="@+id/option_ab_repeat" android:title="@string/ab_repeat" />
+    <item android:id="@+id/option_cinematic_preset" android:title="Cinematic preset" />
+    <item android:id="@+id/option_frame_step" android:title="Frame step" />
+    <item android:id="@+id/option_playback_stats" android:title="Playback stats" />
+    <item android:id="@+id/option_audio_boost" android:title="Audio boost" />
+    <item android:id="@+id/option_snapshot" android:title="Quick frame capture" />
+    <item android:id="@+id/option_bookmark" android:title="Save bookmark" />
+    <item android:id="@+id/option_bookmarks" android:title="My bookmarks" />
+    <item android:id="@+id/option_up_next" android:title="Up Next queue" />
+    <item android:id="@+id/option_repeat" android:title="Repeat" />
+    <item android:id="@+id/option_shuffle" android:title="Shuffle upcoming" />
+    <item android:id="@+id/option_info" android:title="@string/video_information" />
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_premium_card_subtle"
+    android:clickable="true"
+    android:focusable="true"
+    android:minHeight="@dimen/touch_target_min"
+    android:paddingStart="@dimen/spacing_m"
+    android:paddingEnd="@dimen/spacing_m"
+    android:paddingTop="@dimen/spacing_s"
+    android:paddingBottom="@dimen/spacing_s">
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="15sp"
+        tools:text="Resume playback" />
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_s"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="13sp"
+        tools:text="1.0x" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
